@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURL = process.env.MONGO_URL || "mongodb+srv://avinmantri:Gy8gv_LM*vBJdX8@cluster0.pgxurcu.mongodb.net/Canteen?retryWrites=true&w=majority";
+const mongoURL = process.env.MONGO_URL || "your-mongodb-url-from-cli-tools";
 
 const connectToMongoDB = async () => {
   try {
