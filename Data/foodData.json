@@ -1,56 +1,57 @@
 [
     {
-        "CategoryName": "Snacks",
+        "CategoryName": "Easy Munchies",
         "name": "Samosa",
-        "img": "https://example.com/samosa.jpg",
+        "price": 15,
         "description": "A popular Indian snack with a crispy outer layer and a delicious filling of spiced potatoes and peas."
+
     },
     {
-        "CategoryName": "Street Food",
+        "CategoryName": "Easy Munchies",
         "name": "Vada Pav",
-        "img": "https://example.com/vadapav.jpg",
+        "price": 15,
         "description": "A popular street food in Mumbai, consisting of a spicy potato dumpling sandwiched between a pav (bread) along with chutneys."
     },
     {
         "CategoryName": "Beverages",
         "name": "Masala Chai",
-        "img": "https://example.com/masalachai.jpg",
+        "price": 10,
         "description": "A flavorful and aromatic Indian spiced tea made with a blend of tea leaves, spices, and milk."
     },
     {
         "CategoryName": "Beverages",
         "name": "Hot Coffee",
-        "img": "https://example.com/hotcoffee.jpg",
+        "price": 20,
         "description": "A classic cup of hot brewed coffee, perfect to kickstart your day or provide a mid-day energy boost."
     },
     {
         "CategoryName": "Beverages",
         "name": "Cold Coffee",
-        "img": "https://example.com/coldcoffee.jpg",
+        "price": 30,
         "description": "A refreshing chilled coffee drink, ideal for cooling down on a hot day or as a delightful dessert."
     },
     {
         "CategoryName": "Snacks",
         "name": "Dabeli",
-        "img": "https://example.com/dabeli.jpg",
+        "price": 20,
         "description": "A popular street food from the Kutch region of Gujarat, Dabeli is a spicy and tangy snack with a filling of mashed potatoes."
     },
     {
         "CategoryName": "Snacks",
         "name": "Chips",
-        "img": "https://example.com/chips.jpg",
+        "price": 10,
         "description": "Crispy and savory chips, a perfect accompaniment for your snack time or as a side dish."
     },
     {
         "CategoryName": "Desserts",
         "name": "Ice Candy",
-        "img": "https://example.com/icecandy.jpg",
+        "price": 10,
         "description": "Colorful and fruity ice candy, a delightful frozen treat to beat the heat."
     },
     {
-        "CategoryName": "Snacks",
+        "CategoryName": "Bowls",
         "name": "Rice Bowl",
-        "img": "https://example.com/ricebowl.jpg",
+        "price": 35,
         "description": "Steamed Rice loaded with boiled veggies and spieces."
     }
 

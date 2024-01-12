@@ -1,45 +1,45 @@
 import React from 'react';
 
-const Carousel = () => {
-  const imageStyle = {
-    height: '500px',
+const Carousels = () => {
+  const carouselStyle = {
     width: '100%',
+    height: '800px',
     objectFit: 'cover', // Ensures the image covers the entire container
   };
 
   return (
-    <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="https://static.toiimg.com/thumb/61050397.cms?imgsize=246859&width=800&height=800"
+            src="https://cdn.pixabay.com/photo/2018/02/18/21/30/coffee-3163596_640.jpg"
             className="d-block w-100"
-            alt="Samosa"
-            style={imageStyle}
+            alt="First Slide"
+            style={carouselStyle}
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://i1.wp.com/www.teacoffeecup.com/wp-content/uploads/2019/09/regular-cold-coffee.jpg?fit=367%2C550&ssl=1"
+            src="https://cdn.pixabay.com/photo/2021/01/21/07/17/samosa-5936466_640.jpg"
             className="d-block w-100"
-            alt="Cold Coffee"
-            style={imageStyle}
+            alt="Second Slide"
+            style={carouselStyle}
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://simmertoslimmer.com/wp-content/uploads/2022/10/Masala-Chai-Tea.jpg"
+            src="https://cdn.pixabay.com/photo/2017/05/11/19/49/iced-coffee-2305203_640.jpg"
             className="d-block w-100"
-            alt="Masala Chai"
-            style={imageStyle}
+            alt="Third Slide"
+            style={carouselStyle}
           />
         </div>
       </div>
-      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Previous</span>
       </button>
-      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
@@ -47,4 +47,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default Carousels;
